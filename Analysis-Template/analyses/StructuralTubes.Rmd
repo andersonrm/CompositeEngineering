@@ -4,14 +4,14 @@ author: "Riley M. Anderson, PhD"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 graphics: yes
 output:
-  html_document:
-    keep_md: yes
-    theme: readable
-    mathjax: default
   github_document:
     toc: yes
     toc_depth: 5
     pandoc_args: --webtex
+  html_document:
+    keep_md: yes
+    theme: readable
+    mathjax: default
   html_notebook:
     code_folding: hide
     theme: readable
@@ -189,6 +189,12 @@ IP
 
 ```
 
+
+```{r ggplot_fig, echo = F}
+
+p
+
+```
 
 ## Session Information
 
